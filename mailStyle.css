@@ -1,0 +1,58 @@
+.details{
+padding: 50 50 50 50;
+border-bottom: 1px solid #ddd;
+border: 1px solid black;
+}
+
+.mail{
+padding: 50 50 50 50;
+border-bottom: 1px solid #ddd;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    min-height: 50px;
+    max-height: 100px;
+    border: none;
+}
+
+th{
+font-style: bold;
+color: black
+height: 35px;
+text-align: center;
+}
+
+tr{
+font-family: 'Calibri';
+text-align: center;
+height: 30px;
+}
+
+tr a{
+color: black;
+}
+
+textarea{
+font-family: calibri, serif;
+font-size: 14px;
+}
+
+.button{
+background-color: rgb(10,170,220);
+border: none;
+color: white;
+padding: 5px 10px;
+display: inline-block;
+font-size: 16px;
+}
+    
+.button:hover{
+    border: black;
+    background-color: rgb(10, 170, 250);
+}
+
+.red{
+color: red;
+}

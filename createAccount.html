@@ -1,0 +1,56 @@
+<html>
+<body>
+<center>
+
+<style>
+h1
+{font-family: 'Century Gothic';	}
+
+td
+{font-family: 'Calibri';}
+
+input [type=text]
+{font-family: 'Calibri';}
+
+input [type=submit]
+{font-family: 'Calibri';}
+
+
+table{
+font-family: 'Calibri';
+font-size: 20px;
+border: 1px solid black;
+text-align: center;
+}
+
+tr, td{
+height: 25px;
+vertical-align: center;
+padding: 10px;
+}
+
+.button{
+background-color: rgb(10,170,220);
+border: none;
+color: white;
+padding: 5px 10px;
+display: inline-block;
+font-size: 16px;
+}
+
+</style>
+
+<div>
+<h1>Welcome to ePost!</h1>
+<form action="nextCreateAccount.jsp" method=post>
+<table>
+<tr><td>Username</td><td><input type=text name="username"</td></tr>
+<tr><td>Password</td><td><input type=password name="pass1"></td>
+</tr>
+<tr><td>Confirm Password</td><td><input type=password name="pass2"</td></tr>
+<tr><td colspan=2 align=center><br><input type=submit value="Create Account" class="button"></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>

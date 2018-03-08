@@ -1,0 +1,55 @@
+<html>
+<body>
+
+<style>
+
+.calibri{
+font-family: 'Calibri';
+font-size: 16px;
+}
+
+table{
+font-family: 'Calibri';
+font-size: 20px;
+border: 1px solid black;
+text-align: center;
+}
+
+tr, td{
+height: 20px;
+vertical-align: center;
+padding: 10px;
+}
+
+.button{
+background-color: rgb(10,170,220);
+border: none;
+color: white;
+padding: 5px 10px;
+display: inline-block;
+font-size: 16px;
+}
+    
+.button:hover{
+    border: black;
+    background-color: rgb(10, 170, 250);
+}
+
+</style>
+
+<div class="calibri" align=right><a href="adminLogin.html">Admin Login</a></div>
+<center>
+<div>
+<h1 style="font-family: 'Calibri'; font-size: 50px;">ePost</h1>
+<table>
+	<form action="userverify.jsp" method=post>
+		<tr><td>Username</td><td><input type="text" name=username></td></tr>
+		<tr><td>Password</td><td><input type="password" name=password></td></tr>
+		<tr><td colspan=2 align=center><br><input type=submit value="Login" class="button"></td></tr>
+	</form>
+	<tr><td><br><a class="calibri" href="createAccount.html">Create account</a></td>
+	<td><br><a class="calibri" href="forgotPassword.html">Forgot password?</a></td></tr>
+</table>
+</div>
+</body>
+</html>
